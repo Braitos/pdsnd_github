@@ -183,16 +183,16 @@ def user_stats(df):
     start_time = time.time()
 
     # Display counts of user types
-    user_types = df['User Type'].value_counts()
-    print('- The counts of user types are:\n{}'.format(user_types))
+    user_type = df['User Type'].value_counts()
+    print('- The counts of user types are:\n{}'.format(user_type))
 
     # Display counts of gender
     gender_exist = 'Gender' in df
     if gender_exist == False:
         print('\n- There are no data for gender of users')
     else:
-        user_genders = df['Gender'].value_counts()
-        print('\n- The counts of user genders are:\n{}'.format(user_genders))
+        user_gender = df['Gender'].value_counts()
+        print('\n- The counts of user genders are:\n{}'.format(user_gender))
 
     # Display earliest, most recent, and most common year of birth
     birth_exist = 'Birth Year' in df
