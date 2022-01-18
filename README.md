@@ -13,11 +13,11 @@ Thanks to the rise in information technologies, it is easy for a user of the sys
 
 In this project, using the data provided by Motivate (first six months of 2017), a bike share system provider for many major cities in the United States, it-s possible to compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
-The Statistics Computed are:
-1.Popular times of travel
-2.Popular stations and trip
-3.Trip duration
-4.User info
+The Statistics Computed are:\
+1.Popular times of travel\
+2.Popular stations and trip\
+3.Trip duration\
+4.User info\
 and more...
 
 ### Files used
@@ -27,5 +27,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Motivate (https://www.motivateco.com/)
+Motivate (https://www.motivateco.com/)\
 Udacity - Programming for Data Science with Python Nanodegree Program (https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
