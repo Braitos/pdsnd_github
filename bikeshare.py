@@ -72,9 +72,9 @@ def load_data(city, month, day):
 
     return df
 
-def promp_raw_data(df):
+def display_raw_data(df):
     """
-    Prompt the user if they want to see 5 lines or more of raw data based in his the needs.
+    Display for user 5 lines or more of raw data based in his the needs.
 
     Args:
         (str) raw_data - yes or no if the user wants the first five lines of data to analyse
@@ -214,7 +214,7 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
-        promp_raw_data(df)
+        display_raw_data(df)
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
